@@ -1,0 +1,18 @@
+{
+  "server1": {
+    "ip": "192.168.0.10",
+    "services": {
+      "http": true,
+      "ssh": true,
+      "ftp": false
+    }
+  },
+  "server2": {
+    "ip": "192.168.0.20",
+    "services": {
+      "http": false,
+      "ssh": true,
+      "ftp": true
+    }
+  }
+}
